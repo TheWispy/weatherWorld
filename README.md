@@ -15,18 +15,18 @@ the display will read the live temperature at that location. The intention was t
 but this is well and truly broken due to time constraints.
 
 ## What works?
-..* Input of cities.
-..* The getting of data in the form of JSON
-..* Mapping numbers between 0 and 1 onto an isometric grid of given size.
-..* Drawing said grid
+* Input of cities.
+* The getting of data in the form of JSON
+* Mapping numbers between 0 and 1 onto an isometric grid of given size.
+* Drawing said grid
 
 ## What doesn't work as well as everything else?
-..* A E S T H E T I C
-..* Converting longitude and lattitude into x,y co-ordinates
-..* Refreshing of the canvas and colours.
+* A E S T H E T I C
+* Converting longitude and lattitude into x,y co-ordinates
+* Refreshing of the canvas and colours.
 
 ## What was going to be implemented?
-..* Selection of data type i.e. humidity, wind, pressure etc.
-..* List of currently selected cities.
-..* Deletion of cities from tracking list
-..* More efficient calls to the API
+* Selection of data type i.e. humidity, wind, pressure etc.
+* List of currently selected cities.
+* Deletion of cities from tracking list
+* More efficient calls to the API
