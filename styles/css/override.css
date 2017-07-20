@@ -2,6 +2,6 @@ body {
   background-color: rgb(60,60,60);
 }
 
-p{
+p, h2, table{
     color: white
 }

@@ -23,6 +23,11 @@ document.getElementById("submit").addEventListener("click", addLocation);
 document.getElementById("refresh").addEventListener("click", makeRequest);
 
 function addLocation(){
+    var table = document.getElementById('table');
+    table.innerHTML = "<th>Location</th>"
+    for (var i = 0; i < nameList.length; i++) {
+        table.innerHTML += "<tr>"+nameList[i]+"</tr>";
+    }
     var stuff = document.getElementById("input").value;
     if (validate(stuff)) {
         nameList.push(stuff);
@@ -90,6 +95,7 @@ function update(ctx) {
         default:
             break;
         }
+
     }
 }
 
